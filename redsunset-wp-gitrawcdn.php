@@ -4,7 +4,7 @@ Plugin Name: redsunset-wp-gitrawcdn
 Plugin URI: https://github.com/RSSYLY/redsunset-wp-gitrawcdn
 Description: 将关于githubraw的资源切换为加速cdn源
 Version: 1.0.0
-Author: XinzhiWang
+Author: Redsunset Group
 Author URI: http://666old666.cn
 */
 
