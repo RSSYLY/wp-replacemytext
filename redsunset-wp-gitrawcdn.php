@@ -2,7 +2,7 @@
 /*
 Plugin Name: redsunset-wp-gitrawcdn
 Plugin URI: https://github.com/RSSYLY/redsunset-wp-gitrawcdn
-Description: 将关于githubraw的资源切换为加速cdn源
+Description: 将关于cdn5.telesco.pe的资源切换为加速cdn源
 Version: 1.0.1
 Author: XinzhiWang
 Author URI: http://666old666.cn
@@ -19,11 +19,17 @@ require_once(dirname(__FILE__).'/includes/adminUI.php'); // 调用加载插件�
 register_deactivation_hook(__FILE__,'unset__options');	
 function replace_text_wps($text){
 $replace = array(
+'cdn5.telesco.pe' => get_option('rssgitcdn_cdnurl_cdn5telesco'), 
+'cdn1.telesco.pe' => get_option('rssgitcdn_cdnurl_cdn1telesco'), 
+
+
 'raw.githubusercontent.com' => get_option('rssgitcdn_cdnurl'), 
     );
 $text = str_replace(array_keys($replace), $replace, $text);
 return $text;
 }
+
+
 /*WP回调函数
 具体请查看WP文档*/
 add_filter('the_content', 'replace_text_wps');
