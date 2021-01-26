@@ -2,8 +2,8 @@
 /*
 Plugin Name: redsunset-wp-gitrawcdn
 Plugin URI: https://github.com/RSSYLY/redsunset-wp-gitrawcdn
-Description: 将关于cdn5.telesco.pe的资源切换为加速cdn源
-Version: 1.0.1
+Description: 将关于一些被墙资源切换为加速cdn源
+Version: 1.0.2
 Author: XinzhiWang
 Author URI: http://666old666.cn
 */
