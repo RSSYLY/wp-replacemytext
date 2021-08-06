@@ -1,7 +1,0 @@
-△使用说明
-本插件目前仅对 raw.githubusercontent.com 生效，请您确保您的媒体文件url为 raw.githubusercontent.com 开头
-您需要将可用的Github raw CDN域名填入上方表单中
-目前可用的Github CDN 
-更新于 2020.12.13
-raw.sevencdn.com
-raw.fastgit.org
