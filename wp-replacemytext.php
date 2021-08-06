@@ -3,7 +3,7 @@
 Plugin Name: wp-replacemytext全局文本替换
 Plugin URI: https://github.com/RSSYLY/redsunset-wp-gitrawcdn
 Description: 在不修改数据库的前提下替换文章中的链接
-Version: 1.0.1
+Version: 1.0.4
 Author: XinzhiWang
 Author URI: http://666old666.cn
 */
